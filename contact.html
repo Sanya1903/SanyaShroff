@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #111; /* Dark Black */
+            color: #fff;
+        }
+
+        header {
+            background-color: #222; /* Darker Black */
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            border-bottom: 2px solid #333; /* Slightly Lighter Black */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        header img {
+            max-width: 120px; /* Adjust the width of the logo */
+            height: auto;
+            margin-right: 10px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #333; /* Slightly Lighter Black */
+            color: #fff;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 40px;
+        }
+
+        section h2 {
+            color: #fff;
+            background-color: #222; /* Darker Black */
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #fff;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #555; /* Lighter Black */
+            border-radius: 5px;
+            background-color: #222; /* Darker Black */
+            color: #fff;
+        }
+
+        input[type="submit"] {
+            background-color: #ff0062; /* Orange */
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #9e023e; /* Darker Orange on hover */
+        }
+
+        footer {
+            background-color: #222; /* Darker Black */
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+    <title>Contact Me - Sanya Shroff</title>
+</head>
+<body>
+    <header>
+        <img src="logo-01.png" alt="Your Logo" sizes="100px">
+        <div>
+            <h1>Sanya Shroff</h1>
+            <p>Graphic Designer</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="http://127.0.0.1:5500/portfolio.html">Home</a></li>
+            <li><a href="http://127.0.0.1:5500/works.html">Portfolio</a></li>
+            <li><a href="http://127.0.0.1:5500/about.html">About</a></li>
+            <li><a href="http://127.0.0.1:5500/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <!-- Remove the "All rights reserved" paragraph from the footer -->
+    <footer>
+        <!-- Your additional footer content can go here if needed -->
+    </footer>
+</body>
+</html>
+
